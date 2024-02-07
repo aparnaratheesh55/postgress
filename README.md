@@ -2,11 +2,11 @@
 
 sudo docker exec -it postgres /bin/bash
 
-su postgres
+su postgres - it is converting postgres into superuser.
 
-psql
+psql- it is login into the system so that there is no necessary to provide username and password
 
-\list -list contents of testdb
+\list -list databases
 
 \c testdb - this is to connect to the testdb database
 
