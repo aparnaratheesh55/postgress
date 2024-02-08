@@ -10,6 +10,8 @@ psql- it is login into the system so that there is no necessary to provide usern
 
 \c testdb - this is to connect to the testdb database
 
+\dt :-To show databases.
+
 commands are similar to sql 
 
 create database databasename;
